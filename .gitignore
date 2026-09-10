@@ -1,0 +1,64 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+*.tsbuildinfo
+.expo
+.expo-shared
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
+
+# Replit
+.cache/
+.local/
+
+# Runtime data — generated on the server at runtime, never committed.
+# Committing trading_bot.db would let a stale copy overwrite the live
+# Railway database (and all real trade history) on the next deploy.
+trading_bot.db
+trading_bot.db-journal
+trading_bot.db-wal
+trading_bot.db-shm
+economic_calendar_cache.json
+__pycache__/
+*.pyc
+
+# Build output generated at container startup by index.js (esbuild bundles
+# server/index.ts into here) — not source, should not be committed.
+.runtime/
